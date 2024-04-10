@@ -12,4 +12,5 @@ public class BeanCreationLogger implements BeanPostProcessor {
         log.info("Bean: " + beanName + " was created");
         return bean;
     }
+
 }
