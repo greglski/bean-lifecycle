@@ -1,5 +1,8 @@
 package com.kodilla.beanlifecycle;
 
+import com.kodilla.beanlifecycle.configuration.AppConfiguration;
+import com.kodilla.beanlifecycle.model.LibraryManager;
+import com.kodilla.beanlifecycle.rest.BeanCreationController;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class BeanLifecycleApplication {

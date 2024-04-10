@@ -1,4 +1,4 @@
-package com.kodilla.beanlifecycle;
+package com.kodilla.beanlifecycle.model;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;

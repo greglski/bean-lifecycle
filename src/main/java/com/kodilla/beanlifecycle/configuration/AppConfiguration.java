@@ -1,14 +1,23 @@
-package com.kodilla.beanlifecycle;
+package com.kodilla.beanlifecycle.configuration;
 
+import com.kodilla.beanlifecycle.model.BookCheck;
+import com.kodilla.beanlifecycle.model.LibraryManager;
+import com.kodilla.beanlifecycle.monitors.BeanCreationLogger;
+import com.kodilla.beanlifecycle.monitors.BeanMonitor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-class AppConfiguration {
+public class AppConfiguration {
 
     @Bean
     public LibraryManager libraryManager() {
         return new LibraryManager();
+    }
+
+    @Bean
+    public BookCheck bookCheck() {
+        return new BookCheck();
     }
 
     @Bean
